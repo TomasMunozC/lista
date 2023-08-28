@@ -1,0 +1,39 @@
+
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+<body>
+    <section class="tareas">
+        <h1 class="titulo">Tareas</h1>
+        <p class="nuevaTarea">Nombre nueva tarea</p>
+        <div class="datos">
+            <input type="text" id="agregarTarea" placeholder="Tarea Nueva">
+            <button id="btnAgregar">Agregar</button>
+        </div>
+        <div class="detalle">
+            <p>Total: <span id="totalTarea"></span></p>
+            <p>Realizadas: <span id="realizadas"></span></p>
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th id="seccion">Id</th>
+                        <th class="table-active" id="seccion">Tarea</th>
+                        <th id="seccion">Estado</th>
+                    </tr>
+                </thead>
+                <tbody class="cuerpo">
+                </tbody>
+            </table>
+            <ul id="lista-tareas"></ul>
+        </div>
+
+    </section>
+</body>
+<script src="./assets/js/script.js"></script>
+<script src="https://kit.fontawesome.com/1529063b3d.js" crossorigin="anonymous"></script>
+</html>
